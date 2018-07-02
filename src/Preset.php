@@ -1,5 +1,5 @@
 <?php
-namespace Orus/LaravelPreset;
+namespace Orus\LaravelPreset;
 
 use Illuminate\Support\Arr;
 use Illuminate\Filesystem\Filesystem;
