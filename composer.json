@@ -1,0 +1,25 @@
+{
+    "name": "orus/laravel-preset",
+    "description": "The default Orus Laravel preset.",
+    "keywords": ["php", "laravel", "js", "preset", "laravel preset", "orus", "orus default preset"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Youssouf CHERIF",
+            "email": "ycherif@orus.ci"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Orus\\LaravelPreset\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": ["Orus\\LaravelPreset\\OrusServiceProvider"]
+        }
+    }
+}
